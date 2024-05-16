@@ -11,10 +11,6 @@ Building OC3 on Unix-Like OS
 # WIP
 ## Add blocks (and also blockitems)
 ### Computer cases
-* Low-end
-* Mid-end
-* High-end
-* Creative
 * Server Rack
 * Microcontrollers
 ### User I/O
