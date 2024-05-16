@@ -1,9 +1,7 @@
 package li.cil.oc3;
 
 import net.fabricmc.api.ModInitializer;
-import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
-import net.minecraft.block.Material;
-import net.minecraft.util.Identifier;
+import net.minecraft.block.Block;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -18,9 +16,9 @@ public class OpenComputers3 implements ModInitializer {
 	public void onInitialize() {
 		LOGGER.info("Hello Fabric world!");
 
-		BlockUtils.registerBlock(new LowEndComputer(FabricBlockSettings.of(Material.METAL)), new Identifier("opencomputers3", "lecomputer"));
-		BlockUtils.registerBlock(new MidEndComputer(FabricBlockSettings.of(Material.METAL)), new Identifier("opencomputers3", "lecomputer"));
-		BlockUtils.registerBlock(new HighEndComputer(FabricBlockSettings.of(Material.METAL)), new Identifier("opencomputers3", "lecomputer"));
-		BlockUtils.registerBlock(new CreativeComputer(FabricBlockSettings.of(Material.METAL)), new Identifier("opencomputers3", "lecomputer"));
+		BlockUtils.registerBlock(new LowEndComputer(Block.Settings.create().hardness(1f).requiresTool()), "lecomputer");
+		BlockUtils.registerBlock(new MidEndComputer(Block.Settings.create().hardness(1f).requiresTool()), "mecomputer");
+		BlockUtils.registerBlock(new HighEndComputer(Block.Settings.create().hardness(1f).requiresTool()), "hecomputer");
+		BlockUtils.registerBlock(new CreativeComputer(Block.Settings.create().hardness(1f).requiresTool()), "ccomputer");
 	}
 }
