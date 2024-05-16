@@ -3,7 +3,7 @@
 	"id": "opencomputers3",
 	"version": "${version}",
 	"name": "OpenComputers3",
-	"description": "OpenComputers port to 1.19.2+",
+	"description": "OpenComputers port to 1.20.4+",
 	"authors": [
 		"40fpsss"
 	],
@@ -16,10 +16,10 @@
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"li.cil.oc.OpenComputers3"
+			"li.cil.oc3.OpenComputers3"
 		],
 		"fabric-datagen": [
-			"li.cil.oc.OpenComputers3DataGenerator"
+			"li.cil.oc3.OpenComputers3DataGenerator"
 		]
 	},
 	"mixins": [
@@ -27,7 +27,7 @@
 	],
 	"depends": {
 		"fabricloader": ">=0.15.11",
-		"minecraft": ">=1.19.2",
+		"minecraft": "~1.20.4",
 		"java": ">=17",
 		"fabric-api": "*"
 	},
