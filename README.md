@@ -46,8 +46,8 @@ Building OC3 on Unix-Like OS
 ## Add items
 ### Processor
 * Low-End
-* Mid-End
-* High-End
+* Mid-End (can be crafted into APU) 
+* High-End (can be crafted into APU) 
 ### Storage
 * HDD
 * SSD
@@ -111,6 +111,10 @@ Building OC3 on Unix-Like OS
 Multiblock structures will be required to create some items (example = CPU)
 ## Add functionality
 ## Add API
+## GPU tiers
+* Low-End (can be crafted into APU) 
+* Mid-End (can be crafted into APU) 
+* High-End
 
 # Removed content
 ## From original OpenComputers
