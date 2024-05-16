@@ -111,3 +111,7 @@ Building OC3 on Unix-Like OS
 Multiblock structures will be required to create some items (example = CPU)
 ## Add functionality
 ## Add API
+
+# Removed content
+## From original OpenComputers
+* Power Converter (there is no need in power converter because OC3 uses TR Energy)
