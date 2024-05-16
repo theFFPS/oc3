@@ -24,7 +24,6 @@ Building OC3 on Unix-Like OS
 ### Power & Network
 * Relay
 * Net Splitter
-* Power Converter
 * Capacitor
 * Access Point
 * Power Distributor
