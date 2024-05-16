@@ -29,6 +29,8 @@ dependencies {
 	// mappings loom.officialMojangMappings()
 	mappings "net.fabricmc:yarn:${project.yarn_mappings}:v2"
 
+	include modApi('teamreborn:energy:3.0.0')
+
 	modImplementation "net.fabricmc:fabric-loader:${project.loader_version}"
 
 	// Fabric API. This is technically optional, but you probably want it anyway.
