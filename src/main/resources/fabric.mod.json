@@ -16,10 +16,13 @@
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"li.cil.oc3.OpenComputers3"
+			"org.ffpsss.oc3.OpenComputers3"
+		],
+		"client": [
+			"org.ffpsss.oc3.OpenComputers3Client"
 		],
 		"fabric-datagen": [
-			"li.cil.oc3.OpenComputers3DataGenerator"
+			"org.ffpsss.oc3.OpenComputers3DataGenerator"
 		]
 	},
 	"mixins": [

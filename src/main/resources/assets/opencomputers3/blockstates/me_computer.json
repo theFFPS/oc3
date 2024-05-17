@@ -1,0 +1,5 @@
+{
+    "variants": {
+        "": { "model": "tutorial:block/me_computer" }
+    }
+}

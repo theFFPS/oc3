@@ -1,0 +1,11 @@
+{
+    "block.opencomputers3.serverrack": "Rack",
+    "block.opencomputers3.le_computer": "Low-End Computer Case",
+    "block.opencomputers3.me_computer": "Mid-End Computer Case",
+    "block.opencomputers3.he_computer": "High-End Computer Case",
+    "block.opencomputers3.creative_computer": "Creative Computer Case",
+
+    "item.opencomputers3.batteryupgrade1": "[Tier 1] Battery Upgrade",
+    "item.opencomputers3.batteryupgrade2": "[Tier 2] Battery Upgrade",
+    "item.opencomputers3.batteryupgrade3": "[Tier 3] Battery Upgrade"
+}

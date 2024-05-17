@@ -11,7 +11,6 @@ Building OC3 on Unix-Like OS
 # WIP
 ## Add blocks (and also blockitems)
 ### Computer cases
-* Server Rack
 * Microcontrollers
 ### User I/O
 * Keyboard
@@ -21,8 +20,6 @@ Building OC3 on Unix-Like OS
 * Relay
 * Net Splitter
 * Capacitor
-* Access Point
-* Power Distributor
 ### Extensions
 * Adapter
 * Disassembler
@@ -45,9 +42,7 @@ Building OC3 on Unix-Like OS
 * Mid-End (can be crafted into APU) 
 * High-End (can be crafted into APU) 
 ### Storage
-* HDD
-* SSD
-* NVME
+* Drive
 * Floppy Disc
 * EEPROM
 ### Components
@@ -61,7 +56,6 @@ Building OC3 on Unix-Like OS
 * Wireless Network Card
 ### Upgrades
 * Angel Upgrade
-* Battery Upgrade
 * Chunkloader Upgrade
 * Crafting Upgrade
 * Database Upgrade
@@ -111,7 +105,3 @@ Multiblock structures will be required to create some items (example = CPU)
 * Low-End (can be crafted into APU) 
 * Mid-End (can be crafted into APU) 
 * High-End
-
-# Removed content
-## From original OpenComputers
-* Power Converter (there is no need in power converter because OC3 uses TR Energy)
